@@ -5,10 +5,10 @@ A warm, earthy terminal color scheme in light and dark variants. Designed for lo
 ## Preview
 
 ### Dark
-![Dark palette](preview/dark.png)
+![Dark palette](preview/dark-palette.png)
 
 ### Light
-![Light palette](preview/light.png)
+![Light palette](preview/light-palette.png)
 
 ## Examples
 
