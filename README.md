@@ -5,30 +5,16 @@ A warm, earthy terminal color scheme in light and dark variants. Designed for lo
 ## Preview
 
 ### Dark
-![Dark preview](preview/dark.png)
+
+![Dark fastfetch](preview/dark-fastfetch.png)
+![Dark eza](preview/dark-eza.png)
+![Dark palette](preview/dark.png)
 
 ### Light
-![Light preview](preview/light.png)
 
-### Show it off
-
-```bash
-# ANSI color test — shows all 16 colors
-for i in {0..7}; do printf "\e[4${i}m  \e[0m"; done; echo
-for i in {0..7}; do printf "\e[10${i}m  \e[0m"; done; echo
-
-# Colorful system info
-fastfetch
-
-# Git log with colors
-git log --oneline --graph --decorate --all | head -20
-
-# Syntax-highlighted file
-bat --theme=ansi ~/.config/ghostty/config
-
-# Directory listing with colors
-eza -la --icons --git
-```
+![Light fastfetch](preview/light-fastfetch.png)
+![Light eza](preview/light-eza.png)
+![Light palette](preview/light.png)
 
 ## Palette
 
