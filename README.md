@@ -5,6 +5,36 @@ A warm, earthy terminal color scheme in light and dark variants. Designed for lo
 ## Preview
 
 ### Dark
+![Dark preview](preview/dark.png)
+
+### Light
+![Light preview](preview/light.png)
+
+### Show it off
+
+```bash
+# ANSI color test — shows all 16 colors
+for i in {0..7}; do printf "\e[4${i}m  \e[0m"; done; echo
+for i in {0..7}; do printf "\e[10${i}m  \e[0m"; done; echo
+
+# Colorful system info
+fastfetch
+
+# Git log with colors
+git log --oneline --graph --decorate --all | head -20
+
+# Syntax-highlighted file
+bat --theme=ansi ~/.config/ghostty/config
+
+# Directory listing with colors
+eza -la --icons --git
+```
+
+## Palette
+
+### Dark
+**Background:** `#1D1912` · **Foreground:** `#F5F0E8` · **Cursor:** `#C9A54E`
+
 | | Normal | Bright |
 |---|---|---|
 | Black | `#1D1912` | `#4F473B` |
@@ -16,9 +46,9 @@ A warm, earthy terminal color scheme in light and dark variants. Designed for lo
 | Cyan | `#78AEBB` | `#8FBAC5` |
 | White | `#D6D3CE` | `#F5F0E8` |
 
-**Background:** `#1D1912` · **Foreground:** `#F5F0E8` · **Cursor:** `#C9A54E`
-
 ### Light
+**Background:** `#F5F0E8` · **Foreground:** `#2B241B` · **Cursor:** `#5B8A5C`
+
 | | Normal | Bright |
 |---|---|---|
 | Black | `#2B241B` | `#5A5347` |
@@ -30,13 +60,9 @@ A warm, earthy terminal color scheme in light and dark variants. Designed for lo
 | Cyan | `#4A7A86` | `#6F9DA8` |
 | White | `#D8D2C6` | `#F5F0E8` |
 
-**Background:** `#F5F0E8` · **Foreground:** `#2B241B` · **Cursor:** `#5B8A5C`
-
 ## Installation
 
 ### Ghostty
-
-Copy the theme files to your Ghostty themes directory:
 
 ```bash
 mkdir -p ~/.config/ghostty/themes
@@ -44,7 +70,7 @@ cp ghostty/cleo-parchment-dark ~/.config/ghostty/themes/
 cp ghostty/cleo-parchment-light ~/.config/ghostty/themes/
 ```
 
-Then in `~/.config/ghostty/config`:
+In `~/.config/ghostty/config`:
 
 ```ini
 # Single theme
@@ -56,8 +82,6 @@ theme = light:cleo-parchment-light,dark:cleo-parchment-dark
 
 ### Alacritty
 
-Copy the TOML file and import it in your `alacritty.toml`:
-
 ```bash
 mkdir -p ~/.config/alacritty/themes
 cp alacritty/cleo-parchment-dark.toml ~/.config/alacritty/themes/
@@ -68,8 +92,6 @@ import = ["~/.config/alacritty/themes/cleo-parchment-dark.toml"]
 ```
 
 ### WezTerm
-
-Copy the Lua file and reference it in your `wezterm.lua`:
 
 ```bash
 mkdir -p ~/.config/wezterm/colors
