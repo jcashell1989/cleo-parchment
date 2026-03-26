@@ -1,0 +1,28 @@
+# Cleo Parchment Light
+
+background = #F5F0E8
+foreground = #2B241B
+cursor-color = #5B8A5C
+cursor-text = #F5F0E8
+selection-background = #C8C0AE
+selection-foreground = #2B241B
+
+# Normal colors (0-7)
+palette = 0=#2B241B
+palette = 1=#8B3232
+palette = 2=#3D6B3E
+palette = 3=#8A7028
+palette = 4=#3A5563
+palette = 5=#7A0558
+palette = 6=#4A7A86
+palette = 7=#D8D2C6
+
+# Bright colors (8-15)
+palette = 8=#5A5347
+palette = 9=#A04444
+palette = 10=#5B8A5C
+palette = 11=#C9A54E
+palette = 12=#4C6673
+palette = 13=#910766
+palette = 14=#6F9DA8
+palette = 15=#F5F0E8

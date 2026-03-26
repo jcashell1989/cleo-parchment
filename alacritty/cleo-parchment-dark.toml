@@ -1,0 +1,33 @@
+# Cleo Parchment Dark - Alacritty
+
+[colors.primary]
+background = "#1D1912"
+foreground = "#F5F0E8"
+
+[colors.cursor]
+cursor = "#C9A54E"
+text = "#1D1912"
+
+[colors.selection]
+background = "#3A342A"
+text = "#F5F0E8"
+
+[colors.normal]
+black = "#1D1912"
+red = "#B05050"
+green = "#5B8A5C"
+yellow = "#D4AF5A"
+blue = "#556F7C"
+magenta = "#910766"
+cyan = "#78AEBB"
+white = "#D6D3CE"
+
+[colors.bright]
+black = "#4F473B"
+red = "#C06363"
+green = "#7EAC7C"
+yellow = "#E0C36B"
+blue = "#7D97A5"
+magenta = "#B64B93"
+cyan = "#8FBAC5"
+white = "#F5F0E8"

@@ -1,0 +1,33 @@
+# Cleo Parchment Light - Alacritty
+
+[colors.primary]
+background = "#F5F0E8"
+foreground = "#2B241B"
+
+[colors.cursor]
+cursor = "#5B8A5C"
+text = "#F5F0E8"
+
+[colors.selection]
+background = "#C8C0AE"
+text = "#2B241B"
+
+[colors.normal]
+black = "#2B241B"
+red = "#8B3232"
+green = "#3D6B3E"
+yellow = "#8A7028"
+blue = "#3A5563"
+magenta = "#7A0558"
+cyan = "#4A7A86"
+white = "#D8D2C6"
+
+[colors.bright]
+black = "#5A5347"
+red = "#A04444"
+green = "#5B8A5C"
+yellow = "#C9A54E"
+blue = "#4C6673"
+magenta = "#910766"
+cyan = "#6F9DA8"
+white = "#F5F0E8"
