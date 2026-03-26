@@ -5,16 +5,20 @@ A warm, earthy terminal color scheme in light and dark variants. Designed for lo
 ## Preview
 
 ### Dark
-
-![Dark fastfetch](preview/dark-fastfetch.png)
-![Dark eza](preview/dark-eza.png)
 ![Dark palette](preview/dark.png)
 
 ### Light
+![Light palette](preview/light.png)
 
+## Examples
+
+### Dark
+![Dark fastfetch](preview/dark-fastfetch.png)
+![Dark eza](preview/dark-eza.png)
+
+### Light
 ![Light fastfetch](preview/light-fastfetch.png)
 ![Light eza](preview/light-eza.png)
-![Light palette](preview/light.png)
 
 ## Palette
 
