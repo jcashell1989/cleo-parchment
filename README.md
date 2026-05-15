@@ -97,6 +97,15 @@ config.color_scheme = "cleo-parchment-dark"
 
 Double-click the `.itermcolors` file to import, or go to Preferences > Profiles > Colors > Color Presets > Import.
 
+### Pi Coding Agent
+
+```bash
+git clone https://github.com/jcashell1989/cleo-parchment.git ~/.local/share/cleo-parchment
+~/.local/share/cleo-parchment/pi/install.sh
+```
+
+Installs `cleo-parchment` (light) and `cleo-parchment-dark` into `~/.pi/agent/themes/` and sets `theme` in `~/.pi/agent/settings.json` to match macOS appearance. Switch anytime via `/settings` in pi.
+
 ## License
 
 MIT
